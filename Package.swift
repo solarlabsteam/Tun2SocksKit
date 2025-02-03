@@ -1,10 +1,10 @@
-// swift-tools-version: 5.7
+// swift-tools-version: 5.9
 
 import PackageDescription
 
 let package = Package(
   name: "Tun2SocksKit",
-  platforms: [.iOS(.v12), .macOS(.v12), .macCatalyst(.v13)],
+  platforms: [.iOS(.v12), .macOS(.v12), .macCatalyst(.v13), .tvOS(.v17)],
   products: [
     .library(
         name: "Tun2SocksKit",
